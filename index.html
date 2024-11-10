@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <h1><b>Shareable Resume Generator</b></h1>
+    <form id="Resumeform">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="username">Resume URL: </label>
+            <input type="text" id="username" name="username" required><br>
+
+            <lable for="name">Name: </lable>
+            <input type="text" id="name" required><br>
+            <lable for="email">Email: </lable>
+            <input type="email" id="email" name ="email" required><br>
+            <lable for="phone">Phone: </lable>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <!--upload profile picture here-->
+
+            <lable for="profilepicture">Upload profile picture: </lable>
+            <input type="file" name="profilepicture" id="profilepicture" accept="image/*" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <lable for="experience">Experience</lable>
+            <textarea id="experience" name="experience" rows="4" required>
+            </textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <lable for="skills">Skills</lable>
+            <textarea id="skills" name="skills" rows="4" required></textarea>
+            <button type="submit">Generate Resume</button>
+        </fieldset>
+    </form>
+    <div id="resumeOutput">
+        <!--generate resume-->
+    </div>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

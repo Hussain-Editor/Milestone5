@@ -1,0 +1,85 @@
+body{
+
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background: lightblue;
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: purple;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+
+}
+fieldset{
+    border: 2px solid rgb(17,21,10);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: purple;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(250,255,243);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+    background: purple;
+    color: black;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+button:hover{
+    background-color: palevioletred;
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid lightcoral;
+    border-radius: 8px;
+    border-color: purple;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+#resumeOutput h2{
+    color: black;
+}
+.profilepicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid purple;
+    box-shadow: black;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
